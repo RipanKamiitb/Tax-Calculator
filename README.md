@@ -28,6 +28,7 @@
 <h5 class="code-line" data-line-start=26 data-line-end=27 ><a id="4Review_the_calculated_tax_amount_and_close_the_modal_to_continue_using_the_calculator_or_make_changes_to_inputs_26"></a>4.Review the calculated tax amount and close the modal to continue using the calculator or make changes to inputs.</h5>
 <h2 class="code-line" data-line-start=28 data-line-end=29 ><a id="Installation_28"></a>Installation</h2>
 <h6 class="code-line" data-line-start=29 data-line-end=30 ><a id="No_installation_is_required_for_this_webbased_tax_calculator_Simply_open_the_provided_HTML_file_in_a_web_browser_to_access_the_calculator_29"></a>No installation is required for this web-based tax calculator. Simply open the provided HTML file in a web browser to access the calculator.</h6>
+<img src="https://drive.google.com/file/d/13F9RhWGOtyxVWRNsofTOJcE6mZKejY5a/view?usp=sharing">
 <h2 class="code-line" data-line-start=31 data-line-end=32 ><a id="Contributing_31"></a>Contributing</h2>
 <h6 class="code-line" data-line-start=32 data-line-end=33 ><a id="Contributions_to_the_tax_calculator_website_are_welcome_You_can_fork_the_repository_make_changes_or_improvements_and_submit_a_pull_request_for_review_32"></a>Contributions to the tax calculator website are welcome. You can fork the repository, make changes or improvements, and submit a pull request for review.</h6>
 <h2 class="code-line" data-line-start=34 data-line-end=35 ><a id="License_34"></a>License</h2>
