@@ -1,0 +1,180 @@
+.container {
+    width: 80%;
+    margin: 20px auto;
+}
+
+.form-group {
+    margin-bottom: 20px;
+    display: block; /* Display as block for new line */
+}
+
+.input-container {
+    position: relative;
+    width: 100%;
+}
+
+input[type="number"], select {
+    width: calc(100% - 20px); /* Adjust width for padding */
+    padding: 10px;
+    border: 1px solid #d9d9d9; /* Light border color */
+    border-radius: 5px;
+    background-color: #f3f3f3; /* Light background color */
+    box-shadow: 3px 3px 8px #cfcfcf, -3px -3px 8px #ffffff; /* Neumorphic shadow */
+    transition: box-shadow 0.3s ease-in-out; /* Smooth shadow transition */
+    transform: translateY(10%)
+}
+
+input[type="number"]:focus, select:focus {
+    outline: none;
+    box-shadow: 3px 3px 10px #aaaaaa, -3px -3px 10px #ffffff; /* Shadow on focus */
+}
+
+
+.info-icon {
+    color: rgb(59, 55, 55);
+    cursor: pointer;
+    transition: color 0.3s ease-in-out; /* Smooth color transition */
+    border-radius: 50%; /* Circular border */
+    background-color: white; /* Background color for the circle */
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: 20px; /* Adjust size as needed */
+    height: 20px; /* Adjust size as needed */
+    border: 1px solid rgb(59, 55, 55); /* Border color for the circle */
+}
+
+.info-icon:hover {
+    color: darkred; /* Change color on hover */
+}
+
+
+.error-icon {
+    color: rgb(59, 55, 55);
+    cursor: pointer;
+    transition: color 0.3s ease-in-out; /* Smooth color transition */
+    position : absolute;
+    border-radius: 50%; /* Circular border */
+    background-color: white; /* Background color for the circle */
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: 20px; /* Adjust size as needed */
+    height: 20px; /* Adjust size as needed */
+    border: 1px solid rgb(59, 55, 55); /* Border color for the circle */
+    transform: translateY(-120%) translateX(3800%);
+}
+
+.error-icon:hover {
+    color: darkred; /* Change color on hover */
+}
+
+.tooltip-text {
+    visibility: hidden;
+    width: 140px;
+    background-color: black;
+    color: #fff;
+    text-align: center;
+    border-radius: 6px;
+    padding: 5px;
+    position: absolute;
+    z-index: 1;
+    bottom: 125%;
+    left: 50%;
+    margin-left: -60px;
+    
+    /* Tooltip arrow */
+    ::after {
+        content: "";
+        position: absolute;
+        top: 100%;
+        left: 50%;
+        margin-left: -5px;
+        border-width: 5px;
+        border-style: solid;
+        border-color: black transparent transparent transparent;
+    }
+}
+
+.error-icon:hover .tooltip-text {
+    visibility: visible;
+}
+body{
+    border: solid 2px;
+    border-width: 25px;
+    border-radius: 5px;
+    outline:rgb(59, 55, 55);
+    background-color: rgb(247, 240, 231);
+    margin-left: 45px;
+    padding-left: -5px;
+    padding-bottom: 35px;
+    margin-right: 45px;
+    margin-top: 45px;
+    margin-bottom: -65px;
+    box-shadow: 3px 3px 10px #aaaaaa, -3px -3px 10px #ffffff; /* Shadow on focus */
+    animation: changeBorderColor 2s infinite; /* Animation for continuous color change */
+}
+@keyframes changeBorderColor {
+   
+    100% { border-color: var(--random-color); } /* End with random color */
+}
+
+button[type="submit"]{
+   transform: translateX(250%) translateY(50%);
+   padding: 12px 24px; /* Adjust padding to increase button size */
+   font-size: 16px; /* Increase font size for better readability */
+   border: none;
+   border-radius: 5px;
+   background-color: #007bff; /* Default blue color for the button */
+   color: #fff; /* White text color for the button */
+   cursor: pointer;
+   transition: background-color 0.3s ease-in-out; /* Smooth background color transition */
+}
+
+/* Existing styles */
+
+/* Modal styles */
+.modal {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent background */
+    z-index: 9999; /* Higher z-index to ensure modal appears on top */
+}
+
+.modal-content {
+    background-color: #fff;
+    border-radius: 8px;
+    padding: 20px;
+    max-width: 500px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2); /* Box shadow for the modal */
+    position: relative;
+}
+
+.close {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    font-size: 20px;
+    cursor: pointer;
+    color: #888;
+}
+
+.close:hover {
+    color: #333;
+}
+
+/* Modal content styles */
+.modal-content p {
+    margin-bottom: 10px;
+}
+
+.modal-content hr {
+    border-top: 1px solid #ccc;
+    margin: 10px 0;
+}

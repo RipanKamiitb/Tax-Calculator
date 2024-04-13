@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Tax Calculator</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+</head>
+<body>
+    <div class="container">
+        <h1>Tax Calculator</h1>
+        <form id="taxForm">
+            <!-- Gross Income -->
+            <div class="form-group">
+                <label for="grossIncome">Gross Annual Income:</label>
+                <span class="info-icon" title="Gross income is the total income earned by an individual or entity before deducting taxes or other expenses">?</span>
+              <div class="input-container">  <input type="number" id="grossIncome" name="grossIncome">
+                <span class="error-icon" title="Please enter only numbers">!</span></div>
+            </div>
+            <!-- Extra Income -->
+            <div class="form-group">
+                <label for="extraIncome">Extra Income:</label>
+                <span class="info-icon" title="Income from other sources">?</span>
+                <input type="number" id="extraIncome" name="extraIncome">
+               
+            </div>
+            <!-- Deductions -->
+            <div class="form-group">
+                <label for="deductions">Deductions:</label>
+                <span class="info-icon" title="Expenses">?</span>
+                <input type="number" id="deductions" name="deductions">
+               
+            </div>
+            <!-- Age Group -->
+            <div class="form-group">
+                <label for="ageGroup">Age Group:</label>
+                <span class="info-icon" title="Age Group">?</span>
+                <select id="ageGroup" name="ageGroup">
+                    <option value="">Select Age Group</option>
+                    <option value="<40">Below 40</option>
+                    <option value="40-59">40 to 59</option>
+                    <option value="60+">60 and above</option>
+                </select>
+                
+            </div>
+            <button type="submit">Calculate Tax</button>
+        </form>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
