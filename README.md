@@ -32,6 +32,7 @@
 <h6 class="code-line" data-line-start=32 data-line-end=33 ><a id="Contributions_to_the_tax_calculator_website_are_welcome_You_can_fork_the_repository_make_changes_or_improvements_and_submit_a_pull_request_for_review_32"></a>Contributions to the tax calculator website are welcome. You can fork the repository, make changes or improvements, and submit a pull request for review.</h6>
 <h2 class="code-line" data-line-start=34 data-line-end=35 ><a id="License_34"></a>License</h2>
 <h5 class="code-line" data-line-start=35 data-line-end=36 ><a id="This_project_is_licensed_under_the_MIT_License__see_the_LICENSE_file_for_details_35"></a>This project is licensed under the MIT License - see the LICENSE file for details.</h5>
-<p class="has-line-data" data-line-start="36" data-line-end="38">…<br>
 <img src="C:\Memor\Screenshot 2024-04-13 223920.png">
+<p class="has-line-data" data-line-start="36" data-line-end="38">…<br>
+
 Feel free to customize this README file with additional details, instructions, or sections as needed for your tax calculator website.</p>
