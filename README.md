@@ -27,6 +27,7 @@
 <h5 class="code-line" data-line-start=25 data-line-end=26 ><a id="3Click_on_the_Calculate_Tax_button_to_see_the_estimated_tax_amount_in_a_modal_25"></a>3.Click on the “Calculate Tax” button to see the estimated tax amount in a modal.</h5>
 <h5 class="code-line" data-line-start=26 data-line-end=27 ><a id="4Review_the_calculated_tax_amount_and_close_the_modal_to_continue_using_the_calculator_or_make_changes_to_inputs_26"></a>4.Review the calculated tax amount and close the modal to continue using the calculator or make changes to inputs.</h5>
 <img src="https://github.com/RipanKamiitb/Tax-Calculator/blob/main/Screenshot%202024-04-13%20223920.png?raw=true">
+<img src="https://github.com/RipanKamiitb/Tax-Calculator/blob/main/Screenshot%202024-04-13%20230026.png">
 <h2 class="code-line" data-line-start=28 data-line-end=29 ><a id="Installation_28"></a>Installation</h2>
 <h6 class="code-line" data-line-start=29 data-line-end=30 ><a id="No_installation_is_required_for_this_webbased_tax_calculator_Simply_open_the_provided_HTML_file_in_a_web_browser_to_access_the_calculator_29"></a>No installation is required for this web-based tax calculator. Simply open the provided HTML file in a web browser to access the calculator.</h6>
 <h2 class="code-line" data-line-start=31 data-line-end=32 ><a id="Contributing_31"></a>Contributing</h2>
